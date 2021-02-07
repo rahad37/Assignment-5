@@ -1,0 +1,64 @@
+body{
+    background: brown;
+}
+#foodDetail{
+    margin-top: 100px;
+    text-align: center;
+}
+.size{
+    width: 300px;
+    padding: 14px;
+}
+.searchButton{
+    width: 150px;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 9px;
+    padding-bottom: 12px;
+}
+#foodName{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
+    grid-row-gap: 30px;
+    text-align: center;
+    width: 1200px;
+    margin: 0 auto;
+    margin-top: 40px;
+}
+.food{
+    padding-top: 10px;
+    box-shadow: 2px 2px 20px gray;
+    border-radius: 10px;
+    transition: .5s;
+}
+.food:hover{
+    box-shadow: 6px 6px 40px black;
+}
+.food h3{
+    font-size: 28px;
+}
+.food img{
+    width: 300px;
+}
+.img-size{
+    width: 300px;
+    margin: 0 auto;
+}
+
+#mealDetail{
+    width: 500px;
+    margin: 0 auto;
+    color: burlywood;
+}
+#mealDetail img{
+    width: 100%;
+    border-radius: 10px;
+}
+#mealDetail p{
+    font-size: 25px;
+    font-weight: bold;
+}
+#mealDetail h3{
+    font-size: 25px;
+}
